@@ -102,3 +102,38 @@ body {
 .admonition.tip:before {
    content: "lightbulb_outline";
 }
+
+.admonition.enterprise:before {
+    content: "domain";
+}
+
+.admonition.enterprise {
+    border-left: 3.2rem solid rgba(241, 90, 34, 0.59);
+    background-color: rgba(241, 90, 34, 0.21);
+}
+
+.md-nav__link[data-md-state=blur] {
+    color: rgba(0, 0, 0, 0.36);
+}
+
+div.rst-versions {
+    width: 250px;
+    border-top: 0;
+    background: #3a3b3c;
+    font-size: 10pt;
+}
+
+.rst-versions div.rst-other-versions {
+    background-color: rgba(0,0,0,.26) !important;
+}
+
+figure {
+    margin: 0;
+}
+
+a.external:after {
+    content: 'open_in_new';
+    font-family: Material Icons;
+    font-style: normal;
+    padding-left: 2px;
+}
